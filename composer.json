@@ -1,0 +1,26 @@
+{
+  "name": "incapption/helper",
+  "description": "PHP helper classes",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "incapption",
+      "email": "lars.29palms@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+      "psr-4": {
+          "Incapption\\Helper\\": "src/",
+          "Incapption\\Helper\\Tests\\": "tests/"
+      }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
